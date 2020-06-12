@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    }
+    @font-face {
+        font-family: Athene;
+        src: url(../img/Athene.otf);
+    }
+    h1 {
+        font-family: Athene;
+        font-size: 6em;
+    }
+    h2 {
+        font-family: Athene;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        border-bottom: 1px solid #002a5a;
+        color: #002a5a;
+        background: #efe8d7;
+    }
+    header ul li {
+        display: inline;
+    }
+
+    header ul li:first-of-type {
+        padding-left: 5%;
+        padding-right: 80%
+    }
+    section:first-of-type {
+        color: #002a5a;
+        background: #efe8d7;
+    }
+    section:first-of-type article:first-of-type {
+        padding-top: 3em;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    section:first-of-type article:first-of-type h1 {
+      border-bottom: 1px solid darkblue;
+      display: inline;
+      margin-left: 30%
+    }
+   section:first-of-type article:nth-of-type(2) {
+       text-align: center;
+       padding-bottom: 5%;
+   }
+   section:first-of-type article:nth-of-type(2) h2{
+        padding-top: 1%;
+        margin-left: -4%;
+        font-family: Athene;
+   }
+   section:nth-of-type(2) {
+       background-color: #F4C4C4;
+       color: 282b29;
+       padding-right: 3em;
+       /* position: relative; */
+   }
+   section:nth-of-type(2) h3, section:nth-of-type(3) h3, section:nth-of-type(8) h3 {
+       padding: 5em;
+   }
+   section:nth-of-type(2) p {
+       width: 30%;
+       padding-left: 60%;
+       padding-bottom: 5em;
+   }
+   section:nth-of-type(2) table {
+       margin-left: 50%;
+   }
+   section:nth-of-type(2) th, td {
+       border-bottom: 1px solid #282b29;
+       padding: 2em;
+   }
+   section:nth-of-type(2) tr:first-of-type>th {
+       padding-bottom: 0;
+       padding-left: 75%;
+       padding-right: 0;
+   }
+   section:nth-of-type(2) tr td:last-of-type {
+      padding-right: 0;
+      padding-left: 50%;
+      text-align: right;
+   }
+   section:nth-of-type(2) td:first-of-type {
+       padding: 0;
+   }
+   section:nth-of-type(2) tr:nth-of-type(2) th, tr:nth-of-type(3) th, tr:nth-of-type(4) th {
+       padding-left: 0;
+       text-align: left;
+   }
+   section:nth-of-type(2) tr td:first-of-type {
+       padding-right: 1em
+   }
+   section:nth-of-type(2) img {
+       width: 10%;
+       display: block
+   }
+div {
+    background: #F4C4C4 url("../img/letswork.svg") right/contain no-repeat;
+    height: 20vh
+}
+div h1 {
+    color: #F4C4C4
+}
+section:nth-of-type(3), section:nth-of-type(4), section:nth-of-type(5), section:nth-of-type(6), section:nth-of-type(7) {
+    background-color: #DEB873;
+    color: #7d2222;
+}
+section:nth-of-type(3) h3, section:nth-of-type(3) h1 {
+    margin-left: 80%;
+    text-align: right;
+}
+section:nth-of-type(3) p {
+    width: 40%;
+    padding-right: 80%;
+    padding-left: 5%;
+    padding-bottom: 5em;
+}
+.h2 {
+    font-size: 2em
+}
+section:nth-of-type(4) {
+    background: #DEB873 url("../img/bg-marconatto-1.jpg") right/contain no-repeat;
+    padding: 6em
+}
+section:nth-of-type(5) {
+    background: #DEB873 url(../img/kathe_cover-1.jpg) left/contain no-repeat;
+    padding: 6em;
+    text-align: right;
+}
+section:nth-of-type(6) {
+    background: #DEB873 url(../img/bg-nicole-1.jpg) right/contain no-repeat;
+    padding: 6em
+}
+section:nth-of-type(7) {
+    background: #DEB873 url(../img/boa_cover-1.jpg) left/contain no-repeat;
+    padding: 6em;
+    text-align: right;
+}
+section:nth-of-type(8) {
+    background: #D2D2D2;
+    color: #282b29
+}
+
+section:nth-of-type(8) p {
+    width: 30%;
+    padding-left: 40%;
+}
+nav {
+    background: #D2D2D2;
+    padding: 3em;
+}
+nav ul li {
+    display: inline;
+}
+nav ul {
+    padding-left: 95%;
+}
+nav a {
+    text-decoration: none;
+    color: #282b29;
+}
+nav a:hover {
+    text-decoration: underline #282b29;
+}
+
+    /* #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
+    
+    font-family: 'Open Sans', sans-serif;
+    
+    */
