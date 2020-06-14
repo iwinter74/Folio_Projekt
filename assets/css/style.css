@@ -146,22 +146,24 @@ section:nth-of-type(8) {
 section:nth-of-type(8) p {
     width: 30%;
     padding-left: 40%;
+    padding-bottom: 0.5em;
 }
-nav {
+aside nav {
     background: #D2D2D2;
     padding: 3em;
 }
-nav ul li {
-    display: inline;
+aside nav ul li {
+    display: inline-block;
+    padding: 0.5em
 }
-nav ul {
+aside nav ul {
     padding-left: 95%;
 }
-nav a {
+aside nav a {
     text-decoration: none;
     color:  #1d8883
 }
-nav a:hover {
+aside nav a:hover {
     text-decoration: underline #1d8883
 }
 
